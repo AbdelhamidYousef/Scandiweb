@@ -4,6 +4,8 @@
 
 This project is the assignment for the Junior Web Developer position at Scandiweb.
 
+Live Demo: [HERE](https://juniortest-abdulhamid-yousef.000webhostapp.com/)
+
 ## Table of Contents
 
 - [How to Install and Run the Project](#how-to-install-and-run-the-project)
