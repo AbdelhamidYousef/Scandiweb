@@ -1,0 +1,39 @@
+@use "../utils" as *;
+
+.btn {
+  padding: 0.5rem 0.75rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition-duration: 0.3s;
+  font-size: 0.9rem;
+
+  @media (min-width: 480px) {
+    padding: 0.5rem 2rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  &--green {
+    background-color: $emerald;
+    color: $gray;
+    &:hover {
+      background-color: $emerald-darker;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px $emerald-darker;
+    }
+  }
+
+  &--red {
+    background-color: $red;
+    color: $gray;
+    &:hover {
+      background-color: $red-darker;
+    }
+    &:focus {
+      box-shadow: 0 0 0 3px $red-darker;
+      outline: none;
+    }
+  }
+}

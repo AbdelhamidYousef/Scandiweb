@@ -1,0 +1,30 @@
+@use "../utils" as *;
+
+.form-container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 6rem;
+
+  .form {
+    &_error-message {
+      display: inline-block;
+      color: $red-text;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 500;
+      margin-left: 1rem;
+    }
+
+    &_special-att {
+      display: inline-block;
+      min-width: 9rem;
+      margin-bottom: 0.75rem;
+      font-weight: 500;
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      color: $slate-600;
+      text-transform: capitalize;
+      margin-top: 0.5rem;
+    }
+  }
+}

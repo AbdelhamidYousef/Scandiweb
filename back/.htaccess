@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    # Rewrite all requests to the API's entry point.
+    RewriteEngine on
+    RewriteRule ^ public/index.php [L]
+</IfModule>

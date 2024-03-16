@@ -1,0 +1,30 @@
+@use "../utils" as *;
+
+// Global Styles
+body {
+  background-color: $slate-100;
+}
+
+::selection {
+  background-color: $slate-500;
+  color: $white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+
+  &-thumb {
+    background-color: #bbb;
+    border-radius: 20px;
+
+    &:hover {
+      background-color: #aaa;
+    }
+  }
+}
+
+// App Layout
+.app-root {
+  position: relative;
+  min-height: 100vh;
+}
